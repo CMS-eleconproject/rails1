@@ -1,0 +1,17 @@
+<!-- app/views/items/index.html.erb -->
+<div class="custom-container mt-5">
+
+  <table class="custom-table">
+    <tbody>
+      <% @items.each do |item| %>
+        <tr class="custom-table-row">
+          <td class="custom-table-cell"><%= item.id %></td>
+          <td class="custom-table-cell"><%= item.title %></td>
+          <td class="custom-table-cell"><%= item.body %></td>
+          <td class="custom-table-cell"><%= image_tag item.image_url, class: 'custom-thumbnail' %></td>
+          <td class="custom-table-cell"><%= link_to 'Details', item_path(item), class: 'custom-link' %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

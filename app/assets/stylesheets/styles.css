@@ -1,0 +1,54 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fde3ed; /* Light pink background */
+  color: black; /* Dark pink text color */
+  margin: 20px;
+  padding: 0;
+}
+
+table {
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #f197b9; /* Lighter pink border */
+}
+
+thead {
+  background-color: #ff66a3; /* Pink header background */
+  color: #fff;
+}
+
+.show-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #f197b9; /* Lighter pink border */
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ff66a3; /* Pink button background */
+  color: #fff;
+  border: 1px solid #ff66a3; /* Pink button border */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e60050; /* Darker pink hover color */
+  border-color: #e60050; /* Darker pink hover border color */
+}
+
+.back-btn {
+  margin-top: 20px;
+}
